@@ -111,6 +111,12 @@ header {
 option {
     color: black;
 }
+.slid-lap {
+    display: none;
+}
+.slid-mob {
+    display: flex;
+}
 
 
 
@@ -146,7 +152,12 @@ option {
         display: flex;
         align-items: center;
     }
-
+    .slid-lap {
+        display: none;
+    }
+    .slid-mob {
+        display: flex;
+    }
     
 
 
@@ -224,6 +235,11 @@ option {
     .option-lang {
         display: none;
     }
-
+    .slid-lap {
+        display: flex;
+    }
+    .slid-mob {
+        display: none;
+    }
     
 }
