@@ -1,0 +1,229 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', 'Montserrat', 'Inter', 'Segoe UI', sans-serif;
+}
+
+header {
+    width: 100vw;
+    background-color: #062447;
+}
+.logo {
+    width: 200px;
+}
+.manu-login {
+    display: flex;
+    justify-content: flex-end;
+}
+.manu{
+    width: 30px;
+    padding: 0;
+    margin-left: 5px;
+    border: none;
+}
+.login {
+    width: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 12px;
+}
+.login-img {
+    width: 28px;
+    padding-right: 5px;
+    margin-top: 10px;
+}
+.cart {
+    display: none;
+}
+.Lang {
+    display: none;
+}
+.search {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    padding-left: 15px;
+}
+.search input {
+    width: 88%;
+    border: none;
+    outline: none;
+    padding-left: px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.search-icon {
+    width: 12%;
+    font-size: 15px;
+    background-color: #F87C00;
+    border-radius: 10px;
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* NAVBAR */
+.navbar-bott {
+    width: 100vw;
+}
+.option-list {
+    list-style: none;
+    margin: 0;
+}
+.option {
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+}
+.option:hover {
+    background-color: #F87C00;
+}
+.option-ico {
+    width: 20px;
+    margin-right: 5px;
+}
+.option-name {
+  color: white;
+}
+.Lang-img {
+    width: 30px;
+    height: 20px;
+}
+.Lang-sel {
+    width: 50px;
+    height: 30px;
+    color: white;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    outline: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+option {
+    color: black;
+}
+
+
+
+
+
+
+
+
+       /* For Tablets */
+
+@media (min-width : 768px) {
+
+    .logo {
+        width: 290px;
+    }
+    .login-img {
+        margin-top: 20px;
+    }
+    .search {
+        height: 40px;
+    }
+
+    .manu-login {
+        justify-content: space-evenly;
+    }
+    .cart {
+        display: none;
+    }
+    .Lang {
+        display: none;
+    }
+    .cont-sear {
+        display: flex;
+        align-items: center;
+    }
+
+    
+
+
+    
+}
+
+
+
+
+
+
+
+
+
+        /* For Laptop */
+
+@media (min-width : 1024px) {
+
+
+    .manu-login {
+        justify-content: flex-end;
+    }
+    .cart, .login {
+        width: 50px;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        font-size: 12px;
+        margin-right: 10px;
+        margin-left: 25px;
+    }
+    .Lang {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .cart-img, .login-img {
+        width: 30px;
+        padding-right: 5px;
+        margin-top: 20px;
+    }
+    .login span, .cart span {
+        font-size: 14px;
+    }
+    .manu {
+        display: none;
+    }
+
+    /* NAVBAR */
+    #navbarToggleExternalContent {
+        display: flex;
+        width: 100vw;
+        height: 50px;
+        border-top: 1px solid rgb(66, 66, 66);
+    }
+    .option-list {
+        display: flex;
+        list-style: none;
+    }
+    .option {
+        width: 160px;
+        padding: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 15px;
+    }
+    .option:hover {
+        background-color: #F87C00;
+    }
+    .option-ico {
+        width: 20px;
+        margin-right: 5px;
+    }
+    .option-lang {
+        display: none;
+    }
+
+    
+}
