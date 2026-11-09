@@ -111,11 +111,49 @@ header {
 option {
     color: black;
 }
+   /* Carousel */
 .slid-lap {
     display: none;
 }
 .slid-mob {
     display: flex;
+}
+
+/* Book Type */
+.book-type {
+    width: 100vw;
+    padding: 15px 5px;
+    display: flex;
+    overflow: auto;
+}
+
+.book-type-option {
+    width: 100px;
+    /* height: 150px; */
+    background-color: rgba(206, 206, 255, 0.548);
+    border-radius: 8px;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.link-opt {
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    color: black;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1;
+}
+.option-img {
+    width: 40px;
+    height: 35px;
+    margin-bottom: 5px;
 }
 
 
@@ -152,11 +190,27 @@ option {
         display: flex;
         align-items: center;
     }
+     /* Carousel */
     .slid-lap {
         display: none;
     }
     .slid-mob {
         display: flex;
+    }
+
+    /* Book Type */
+    .book-type-option {
+        width: 130px;
+        padding: 10px;
+    }
+    .link-opt {
+        width: 90px;
+        font-size: 16px;
+    }
+    .option-img {
+        width: 50px;
+        height: 44px;
+        margin-bottom: 10px;
     }
     
 
@@ -235,11 +289,17 @@ option {
     .option-lang {
         display: none;
     }
+     /* Carousel */
     .slid-lap {
         display: flex;
     }
     .slid-mob {
         display: none;
+    }
+
+    /* Book Type */
+    .option-img {
+        margin: 5px;
     }
     
 }
