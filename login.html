@@ -4,9 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <title>Document</title>
 </head>
-<body>
-    <h1>LOGIN</h1>
+<body class="login-body">
+
+    <div class="login-caed">
+
+        <div class="main-log">
+        <!-- ml = main-log -->
+
+            <h2>Welcome To Book Bazaar</h2>
+
+            <p>Log in to access your library and continue your reading journey.</p>
+
+            <form class="ml-input">
+
+                <label for="email">Email Address:</label><br>
+                <input type="email" placeholder="jane.doe@email.com" id="email">
+
+                <br>
+
+                <label for="pass">Password</label><br>
+                <input type="password" id="pass" placeholder=".......">
+
+                <br>
+
+                <div class="ml-reme">
+                    <div>
+                        <input type="radio" id="radi" style="width: 20px;">
+                        <label for="radi">Remember me</label>
+                    </div>
+
+                    <a href="#">
+                        <p>Forgot Password?</p>
+                    </a>
+                </div>
+                
+
+                <button class="ml-butt">
+                    <span style="font-size: 16px;">Log in</span> <i class="fa-solid fa-arrow-right-to-bracket"></i>
+                </button>
+
+            </form>
+
+            <div class="pppp" style="width: 100%; height: 0;border: 0.5px solid lightgray; position: relative;">
+                <div style="padding: 5px;position: absolute;left: 45%;top: -17px;background-color: white; border-radius: 100%;">
+                    <span>or</span>
+                </div>
+            </div>
+
+            <div class="ml-gool">
+                <span>Log in with Google</span>
+            </div>
+
+        </div>
+
+    </div>
+
+    <img src="assets/image/bookrow.jpg" class="login-brod">
+    
 </body>
 </html>
