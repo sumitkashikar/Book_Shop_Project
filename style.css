@@ -6,7 +6,7 @@
 }
 
 header {
-    width: 100vw;
+    width: 100%;
     background-color: #062447;
 }
 .logo {
@@ -71,7 +71,7 @@ header {
 
 /* NAVBAR */
 .navbar-bott {
-    width: 100vw;
+    width: 100%;
 }
 .option-list {
     list-style: none;
@@ -121,7 +121,7 @@ option {
 
 /* Book Type */
 .book-type {
-    width: 100vw;
+    width: 100%;
     padding: 15px 5px;
     display: flex;
     overflow: auto;
@@ -155,6 +155,94 @@ option {
     height: 35px;
     margin-bottom: 5px;
 }
+
+/* Book Section */
+.book-section {
+    width: 100%;
+    padding: 10px;
+}
+.bs-hading {
+    display: flex;
+    justify-content: space-between;
+}
+.bs-title {
+    display: flex;
+}
+.bs-title-l {
+    background-color: #F87C00;
+    color: #F87C00;
+    font-size: 16px;
+    height: 25px;
+    width: 6px;
+    border-radius: 3px;
+    margin-top: 3px;
+    margin-right: 8px;
+}
+.bs-title h2 {
+    font-size: 24px;
+    font-weight: bolder;
+    margin: 0;
+}
+.bs-view {
+    font-size: 14px;
+}
+.bs-view-2 {
+    display: none;
+}
+.bs-view img {
+    width: 15px;
+}
+.bs-main {
+    display: flex;
+    flex-wrap: wrap;
+}
+.bs-card {
+    width: 50%;
+    padding: 16px;
+    padding-top: 20px;
+    border: none;
+}
+.bs-card img {
+    width: 100px;
+    margin: auto;
+}
+.book-name {
+    font-size: 16px; 
+    margin: 0;
+    font-weight: 600;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.price {
+    margin-left: 5px;
+}
+.price-a {
+    font-size: 17px;
+    font-weight: 600;
+}
+.price-b {
+    font-size: 14px;
+    text-decoration:line-through;
+    color: gray;
+    margin-left: 5px;
+}
+.price-c {
+    font-size: 12px;
+    color: green;
+    margin-left: 5px;
+}
+.bs-card-butt {
+    color: white;
+    background-color: #F87C00;
+    width: 100%; 
+    padding: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
 
 
 
@@ -250,6 +338,13 @@ option {
 
 
 
+
+
+
+
+
+
+
        /* For Tablets */
 
 @media (min-width : 768px) {
@@ -300,6 +395,34 @@ option {
         margin-bottom: 10px;
     }
     
+    /* Book Section */
+    .bs-title-l {
+        height: 30px;
+        width: 8px;
+    }
+    .bs-title h2 {
+        font-size: 30px;
+    }
+    .bs-view-1 {
+        display: none;
+    }
+    .bs-view-2 {
+        display: block;
+        font-size: 16px;
+    }
+    .bs-view-2 img {
+        width: 22px;
+    }
+    .bs-card {
+        width: 33%;
+    }
+
+
+
+
+
+
+
 
 
 
@@ -373,7 +496,7 @@ option {
     /* NAVBAR */
     #navbarToggleExternalContent {
         display: flex;
-        width: 100vw;
+        width: 100%;
         height: 50px;
         border-top: 1px solid rgb(66, 66, 66);
     }
@@ -410,6 +533,14 @@ option {
     /* Book Type */
     .option-img {
         margin: 5px;
+    }
+
+    /* Book Section */
+    .book-section {
+        padding: 20px;
+    }
+    .bs-card {
+        width: 16.6%;
     }
 
 
