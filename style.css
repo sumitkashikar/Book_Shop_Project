@@ -195,12 +195,16 @@ option {
 .bs-main {
     display: flex;
     flex-wrap: wrap;
+    margin-top: 5px;
 }
 .bs-card {
     width: 50%;
     padding: 16px;
     padding-top: 20px;
     border: none;
+}
+.bs-card:hover {
+    box-shadow: 0px 0px 10px -5px rgba(0,0,0,0.75);
 }
 .bs-card img {
     width: 100px;
@@ -539,8 +543,11 @@ option {
     .book-section {
         padding: 20px;
     }
+    .bs-main {
+        justify-content: space-between;
+    }
     .bs-card {
-        width: 16.6%;
+        width: 16.2%;
     }
 
 
